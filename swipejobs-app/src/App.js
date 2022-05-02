@@ -10,7 +10,7 @@ function App() {
   const [workerProfile, setWorkerProfile] = useState([]);
   const [jobList, setJobList] = useState([]);
 
-  useEffect(async () => {
+  useEffect(async() => {
     const workerProfile = await JobService.getWorkerProfile()
     if (workerProfile) {
       setWorkerProfile(workerProfile);
@@ -19,7 +19,23 @@ function App() {
     if (jobs) {
       setJobList(jobs);
     }
+
+    // JobService.getWorkerProfile().then((workerProfile) => {
+    //   console.log('workerProfile', workerProfile);
+    //   if (workerProfile) {
+    //     setWorkerProfile(workerProfile);
+    //   }
+    // });
+    
+    // JobService.getJobList().then((jobs) => {
+    //   console.log('NO JOBS', jobs);
+    //   if (jobs) {
+    //     setJobList(jobs);
+    //     console.log('NO JOBS');
+    //   }
+    // });
   }, []);
+  
 
   return (
     <Wrapper>
@@ -28,6 +44,7 @@ function App() {
     </Wrapper>
   );
 }
+
 
 
 export default App;

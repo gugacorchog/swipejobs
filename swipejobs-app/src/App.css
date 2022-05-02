@@ -60,3 +60,7 @@ list-style-position: inside;
 .container .search-results ul li span{
   padding-left: 1ch;
 }
+
+.logo {
+  width: 175px;
+}

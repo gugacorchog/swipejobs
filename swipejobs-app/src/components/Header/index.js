@@ -6,7 +6,7 @@ function Header(props) {
             <nav className="navbar navbar-dark bg-dark">
                 <a className="navbar-brand" href="https://www.swipejobs.com/">
                     <img 
-                        src="/swipejobs-app/img/logo.png"
+                        src="/img/logo.png"
                         className="logo" 
                         alt="swipejobs-logo">
                     </img>
