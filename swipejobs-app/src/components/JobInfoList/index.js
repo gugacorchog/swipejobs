@@ -37,7 +37,7 @@ const JobInfoList =(props) => {
   return (
 
     <ul className="list-group list-group-flush">
-      <li className="list-group-item">
+      <li className="list-group-item text-white">
         <div className="row">
           <div className="col-2 align-self-center">
             {shiftIcon}
