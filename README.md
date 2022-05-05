@@ -21,7 +21,8 @@ A page that displays jobs that were matched for users in a job matching site.
 
 ## Installation
 
-npm install the required dependencies for this app on your system.
+npm install (in command line)
+To install the required dependencies for this app on your system.
 
 ## Demo
 
