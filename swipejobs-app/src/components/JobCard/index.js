@@ -7,7 +7,7 @@ import JobInfoList from "../JobInfoList/index";
 import JobButton from "../JobButton/index";
 
 // Job card displayed specific per each position
-function JobCard(props) {
+const JobCard =(props) => {
     // call backs to accept and reject URLs using JobServices.js
     const [acceptList, setAcceptList] = useState([]);
     const [rejectList, setRejectList] = useState([]);

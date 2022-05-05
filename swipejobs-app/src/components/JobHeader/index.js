@@ -1,7 +1,7 @@
 import React from "react";
 import "../JobHeader/style.css"
 
-function JobHeader(props) {
+const JobHeader =(props) => {
   return (
     <div className="job-header">
       <h5 className="card-title">{props.jobTitle}</h5>

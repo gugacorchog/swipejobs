@@ -13,7 +13,7 @@ const requirementIcon = <FontAwesomeIcon icon={faTools} size="lg" />
 const reportIcon = <FontAwesomeIcon icon={faUser} size="lg" />
 
 
-function JobInfoList(props) {
+const JobInfoList =(props) => {
   // render the shift dates in a list based on the array of shifts for that position
   const renderShiftDates = () => {
     if (props.shiftDates && props.shiftDates.length > 0) {

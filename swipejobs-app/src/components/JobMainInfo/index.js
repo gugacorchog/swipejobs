@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css"
 
-function JobMainInfo(props) {
+const JobMainInfo =(props) => {
   return (
     <div className=" main-info">
       <div className="row">

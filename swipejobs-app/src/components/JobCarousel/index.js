@@ -5,7 +5,7 @@ import "./style.css"
 import { formatDistance, formatRate } from "../../utils/Utils.js";
 
 // Main carousel populated with one job card per each position
-function JobCarousel(props) {
+const JobCarousel =(props) => {
     const { jobs } = props;
 
     return (

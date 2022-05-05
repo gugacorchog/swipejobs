@@ -2,7 +2,7 @@ import React from "react";
 import { useAlert } from 'react-alert'
 // import JobButton from "../JobButton/index.js";
 // buttons for job acceptance or rejection
-function JobButton(props) {
+const JobButton =(props) => {
     const alert = useAlert()
 
     const theme = `btn btn-${props.theme}`

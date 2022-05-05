@@ -1,6 +1,6 @@
 import React from "react";
 
-function JobImage(props) {
+const JobImage =(props) => {
     return (
         <img
             src={props.jobImage}

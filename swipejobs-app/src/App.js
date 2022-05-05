@@ -20,20 +20,20 @@ function App() {
       setJobList(jobs);
     }
 
-    // JobService.getWorkerProfile().then((workerProfile) => {
-    //   console.log('workerProfile', workerProfile);
-    //   if (workerProfile) {
-    //     setWorkerProfile(workerProfile);
-    //   }
-    // });
+    JobService.getWorkerProfile().then((workerProfile) => {
+      console.log('workerProfile', workerProfile);
+      if (workerProfile) {
+        setWorkerProfile(workerProfile);
+      }
+    });
     
-    // JobService.getJobList().then((jobs) => {
-    //   console.log('NO JOBS', jobs);
-    //   if (jobs) {
-    //     setJobList(jobs);
-    //     console.log('NO JOBS');
-    //   }
-    // });
+    JobService.getJobList().then((jobs) => {
+      console.log('NO JOBS', jobs);
+      if (jobs) {
+        setJobList(jobs);
+        console.log('NO JOBS');
+      }
+    });
   }, []);
   
 
