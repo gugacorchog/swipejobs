@@ -36,8 +36,8 @@ const JobInfoList =(props) => {
 
   return (
 
-    <ul className="list-group list-group-flush">
-      <li className="list-group-item text-white">
+    <ul className="list-group list-group-flush text-black">
+      <li className="list-group-item ">
         <div className="row">
           <div className="col-2 align-self-center">
             {shiftIcon}
@@ -51,7 +51,7 @@ const JobInfoList =(props) => {
                 {renderShiftDates()}
               </ul>
             </div>
-          </div>
+          </div>  
         </div>
       </li>
       <li className="list-group-item">
