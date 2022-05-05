@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/swipejobs/static/css/main.e6058d04.chunk.css",
+    "main.js": "/swipejobs/static/js/main.2c3e0774.chunk.js",
+    "main.js.map": "/swipejobs/static/js/main.2c3e0774.chunk.js.map",
+    "runtime-main.js": "/swipejobs/static/js/runtime-main.8ba99713.js",
+    "runtime-main.js.map": "/swipejobs/static/js/runtime-main.8ba99713.js.map",
+    "static/css/2.3661fc73.chunk.css": "/swipejobs/static/css/2.3661fc73.chunk.css",
+    "static/js/2.a1c3bd4e.chunk.js": "/swipejobs/static/js/2.a1c3bd4e.chunk.js",
+    "static/js/2.a1c3bd4e.chunk.js.map": "/swipejobs/static/js/2.a1c3bd4e.chunk.js.map",
+    "index.html": "/swipejobs/index.html",
+    "precache-manifest.2ce084deea443926c49981d14b789995.js": "/swipejobs/precache-manifest.2ce084deea443926c49981d14b789995.js",
+    "service-worker.js": "/swipejobs/service-worker.js",
+    "static/css/2.3661fc73.chunk.css.map": "/swipejobs/static/css/2.3661fc73.chunk.css.map",
+    "static/css/main.e6058d04.chunk.css.map": "/swipejobs/static/css/main.e6058d04.chunk.css.map",
+    "static/js/2.a1c3bd4e.chunk.js.LICENSE.txt": "/swipejobs/static/js/2.a1c3bd4e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ba99713.js",
+    "static/css/2.3661fc73.chunk.css",
+    "static/js/2.a1c3bd4e.chunk.js",
+    "static/css/main.e6058d04.chunk.css",
+    "static/js/main.2c3e0774.chunk.js"
+  ]
+}
