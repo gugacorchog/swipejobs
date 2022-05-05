@@ -27,7 +27,7 @@ Run npm install in command line to install the required dependencies for this ap
 
 #### npm start
 
-Run npm start to run the app in the local machine port 3000 
+Run npm start to run the app in the http://localhost:3000/ 
 
 
 ## Demo
