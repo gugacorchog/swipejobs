@@ -21,8 +21,14 @@ A page that displays jobs that were matched for users in a job matching site.
 
 ## Installation
 
-npm install (in command line)
-To install the required dependencies for this app on your system.
+#### npm install 
+
+Run npm install in command line to install the required dependencies for this app on your system.
+
+#### npm start
+
+Run npm start to run the app in the local machine port 3000 
+
 
 ## Demo
 
