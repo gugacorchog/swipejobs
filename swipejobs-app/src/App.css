@@ -5,14 +5,12 @@
 }
 
 body {
-  
   background-color: #e1e1e1;
   color: black;
   width: 100%;
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  
 }
 
 .container {
