@@ -7,7 +7,7 @@ const Header =(props) => {
             <nav className="navbar navbar-dark bg-dark">
                 <a className="navbar-brand" href="https://www.swipejobs.com/">
                     <img 
-                        src="/img/logo.png"
+                        src="TILDE/img/logo.png"
                         className="logo" 
                         alt="swipejobs-logo">
                     </img>
