@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from "../../img/logo.png"
 
 const Header =(props) => {
     return (
@@ -7,7 +7,7 @@ const Header =(props) => {
             <nav className="navbar navbar-dark bg-dark">
                 <a className="navbar-brand" href="https://www.swipejobs.com/">
                     <img 
-                        src="TILDE/img/logo.png"
+                        src={logo}
                         className="logo" 
                         alt="swipejobs-logo">
                     </img>
