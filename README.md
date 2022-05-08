@@ -15,6 +15,7 @@ A page that displays jobs that were matched for users in a job matching site.
 
 - [Installation](#Installation)
 - [Demo](#Demo)
+- [URL](#URL)
 - [Question](#question) 
 - [LICENSE](#License) 
 
@@ -37,6 +38,10 @@ Run npm start to run the app in the http://localhost:3000/
 https://user-images.githubusercontent.com/87793995/166901736-907268ac-1227-4b47-8945-2b18c3b49705.mp4
 
 
+## URL
+
+#### Online Deployment in the link below 
+[Live URL](https://gugacorchog.github.io/swipejobs/)
 
 ## LICENSE
 
